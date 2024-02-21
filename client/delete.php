@@ -1,7 +1,7 @@
 <?php
-require_once("Routes.php");
+require_once("Routers.php");
 
-$routes = new Routes();
+$routes = new Routers();
 
 $id = $_GET['id'];
 
